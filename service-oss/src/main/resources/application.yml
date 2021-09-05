@@ -1,0 +1,21 @@
+server:
+  port: 8130
+spring:
+  application:
+    name: service-oss
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+#阿里云配置
+aliyun:
+  oss:
+    endpoint: oss-cn-hangzhou.aliyuncs.com
+    keyId: LTAI5tBX82sQAbEyughogcpi
+    keySecret: g7bKTY8DxzDSIUkyYsa3ncHrZmlCKV
+    bucketName: atguigu0223
+#logging:
+#  file:
+#    path: e:/srb/oss
+#    name: oss.log
+#日志配置

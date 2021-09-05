@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="jwt" />
+        <module name="mybatis-plus-demo" />
+        <module name="hfb" />
+        <module name="service-common" />
+        <module name="service-gateway0" />
+        <module name="service-base" />
+        <module name="service-sms" />
+        <module name="service-core" />
+        <module name="service-oss" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hfb" target="1.8" />
+      <module name="jwt" target="1.8" />
+      <module name="mybatis-plus-demo" target="1.8" />
+      <module name="service-base" target="1.8" />
+      <module name="service-common" target="1.8" />
+      <module name="service-core" target="1.8" />
+      <module name="service-gateway0" target="1.8" />
+      <module name="service-oss" target="1.8" />
+      <module name="service-sms" target="1.8" />
+      <module name="srb0223" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="mybatis-plus-demo" options="" />
+      <module name="srb0223" options="" />
+    </option>
+  </component>
+</project>

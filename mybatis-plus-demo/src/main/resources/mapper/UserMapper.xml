@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+ <mapper namespace="com.atguigu.mapper.UserMapper">
+
+    <sql id="Base_column_list">
+        id,`name`,age,email
+    </sql>
+
+    <select id="findAll" resultType="com.atguigu.entity.User">
+        SELECT
+        <include refid="Base_column_list"></include>
+        FROM t_user
+    </select>
+    <!--根据age分页查询-->
+    <select id="selectByAge" resultType="com.atguigu.entity.User">
+        SELECT
+        <include refid="Base_column_list"></include>
+        FROM t_user
+        WHERE age>#{age}
+    </select>
+ </mapper>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/hfb/hfb.iml" filepath="$PROJECT_DIR$/hfb/hfb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jwt/jwt.iml" filepath="$PROJECT_DIR$/jwt/jwt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis-plus-demo/mybatis-plus-demo.iml" filepath="$PROJECT_DIR$/mybatis-plus-demo/mybatis-plus-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-base/service-base.iml" filepath="$PROJECT_DIR$/service-base/service-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-common/service-common.iml" filepath="$PROJECT_DIR$/service-common/service-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-core/service-core.iml" filepath="$PROJECT_DIR$/service-core/service-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-gateway/service-gateway.iml" filepath="$PROJECT_DIR$/service-gateway/service-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-gateway0/service-gateway0.iml" filepath="$PROJECT_DIR$/service-gateway0/service-gateway0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-oss/service-oss.iml" filepath="$PROJECT_DIR$/service-oss/service-oss.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-sms/service-sms.iml" filepath="$PROJECT_DIR$/service-sms/service-sms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/srb0223.iml" filepath="$PROJECT_DIR$/srb0223.iml" />
+    </modules>
+  </component>
+</project>
